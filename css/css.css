@@ -1,0 +1,85 @@
+@font-face {
+	font-family: "Commissioner-Medium";
+	src: url("../fonts/Commissioner-Medium.ttf");
+}
+
+body{
+	background: #828282;
+}
+
+figure{
+	display: flex;
+	justify-content: center;
+}
+
+#main{
+	position: sticky;
+	top: 0px;
+}
+
+.header{
+	padding: 5px;
+	text-align: center;
+}
+
+.link{
+	color: #ffff7f;
+	padding: 5px;
+	text-align: center;
+}
+
+.img{
+	margin: 5px;
+	border: medium solid #ffff7f;
+}
+
+.subTitle{
+	text-align: center;
+	padding: 10px;
+	margin: 10px;
+	font-family: 'Gabriela', serif;
+}
+
+.footer{
+	text-align: center;
+	margin-bottom: 125px;
+	padding-bottom: 125px;
+	border-bottom: solid 5px #ffff7f; 
+	border-radius: 10px;
+}
+
+.link:hover{
+	background: #ffff7f; 
+	color: #828282;
+	transition-duration: 1s;
+}
+
+.ol{
+	display: flex;
+	flex-direction: column;
+	color: #ffff7f;
+}
+
+.li{
+	display: flex;
+	justify-content: center;
+}
+
+.p{
+	color: #ffff7f;
+	padding: 5px;
+	text-align: center;
+	font-family: 'Commissioner-Medium';
+}
+
+a[href*="com"]:active{
+	color: #828282;
+	background: #828282;
+}
+
+.logo{
+	display: inline-block;
+	height: 20px;
+	border: 2px solid #ffff7f;
+	border-radius: 100%;
+}
