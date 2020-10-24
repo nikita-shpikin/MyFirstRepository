@@ -7,7 +7,7 @@ body{
 	background: #828282;
 }
 
-figure{
+.images{
 	display: flex;
 	justify-content: center;
 }
@@ -44,12 +44,12 @@ figure{
 	text-align: center;
 	margin-bottom: 125px;
 	padding-bottom: 125px;
-	border-bottom: solid 5px #ffff7f; 
+	border-bottom: solid 5px #ffff7f;
 	border-radius: 10px;
 }
 
 .link:hover{
-	background: #ffff7f; 
+	background: #ffff7f;
 	color: #828282;
 	transition-duration: 1s;
 }
