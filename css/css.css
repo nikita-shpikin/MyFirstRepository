@@ -3,13 +3,18 @@
 	src: url("../fonts/Commissioner-Medium.ttf");
 }
 
-body{
+.background{
 	background: #828282;
 }
 
 .images{
 	display: flex;
 	justify-content: center;
+}
+
+.picture{
+	margin: 5px;
+	border: medium solid #ffff7f;
 }
 
 #main{
@@ -28,24 +33,11 @@ body{
 	text-align: center;
 }
 
-.img{
-	margin: 5px;
-	border: medium solid #ffff7f;
-}
-
-.subTitle{
+.sub-title{
 	text-align: center;
 	padding: 10px;
 	margin: 10px;
 	font-family: 'Gabriela', serif;
-}
-
-.footer{
-	text-align: center;
-	margin-bottom: 125px;
-	padding-bottom: 125px;
-	border-bottom: solid 5px #ffff7f;
-	border-radius: 10px;
 }
 
 .link:hover{
@@ -54,18 +46,18 @@ body{
 	transition-duration: 1s;
 }
 
-.ol{
+.ordered-list{
 	display: flex;
 	flex-direction: column;
 	color: #ffff7f;
 }
 
-.li{
+.list-item{
 	display: flex;
 	justify-content: center;
 }
 
-.p{
+.text{
 	color: #ffff7f;
 	padding: 5px;
 	text-align: center;
@@ -77,9 +69,27 @@ a[href*="com"]:active{
 	background: #828282;
 }
 
+.footer{
+	text-align: center;
+	margin-bottom: 125px;
+	padding-bottom: 125px;
+	border-bottom: solid 5px #ffff7f;
+	border-radius: 10px;
+}
+
 .logo{
-	display: inline-block;
 	height: 20px;
 	border: 2px solid #ffff7f;
 	border-radius: 100%;
+}
+
+.vk{
+	color: #ffff7f;
+	font-family: 'Commissioner-Medium';
+}
+
+.wrapper{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
